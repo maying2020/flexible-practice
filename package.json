@@ -1,0 +1,28 @@
+{
+  "name": "flexible-practice",
+  "version": "1.0.0",
+  "description": "基于手淘移动端布局方案的实践",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaYing929/flexible-practice.git"
+  },
+  "author": "yishu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaYing929/flexible-practice/issues"
+  },
+  "homepage": "https://github.com/MaYing929/flexible-practice#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "postcss-partial-import": "^4.1.0",
+    "postcss-reporter": "^5.0.0",
+    "stylelint": "^8.0.0"
+  }
+}
