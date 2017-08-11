@@ -1,0 +1,8 @@
+{
+    "statices":{ "port":8000, "root":"/Users/maying/www/workspace/learn/flexible-practice","isrun":true },
+    "servers":
+    [
+        {"port":8004, "root":"/Users/maying/www/workspace/youxin/xin_html_b2c/xin-wap/c2b卖车","isrun":false},
+        {"port":80, "root":"/Users/maying/www/workspace/youxin/assets.xin.com","isrun":false}
+    ]
+}

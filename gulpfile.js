@@ -9,10 +9,18 @@ var cssnano = require('cssnano');
 var stylelint = require('stylelint');
 var reporter = require('postcss-reporter');
 
+var gulp = require('gulp');
+var postcss = require('gulp-postcss');
+var px2rem = require('postcss-px2rem');
+
+
 // 编译样式
 gulp.task('styles',function(){
-  return gulp.src('src/*.css')
+  var processors = [px2rem({remUnit: 75})];
+  return  gulp.src('src/*.css')
+
          .pipe(postcss([autoprefixer]))
+         .pipe(postcss(processors))
          .pipe(sourcemaps.init())
          .pipe(sourcemaps.write('maps/'))
          .pipe(gulp.dest('dest/'));
@@ -25,7 +33,7 @@ gulp.task('rename', ['styles'], function () {
   .pipe(rename('example.min.css'))
   .pipe(sourcemaps.init())
   .pipe(sourcemaps.write('maps/'))
-   .pipe(gulp.dest("dest/"));
+  .pipe(gulp.dest("dest/"));
  });
 
  gulp.task("lint-styles", function() {

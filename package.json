@@ -4,7 +4,8 @@
   "description": "基于手淘移动端布局方案的实践",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node ./publish.js"
   },
   "repository": {
     "type": "git",
@@ -16,13 +17,21 @@
     "url": "https://github.com/MaYing929/flexible-practice/issues"
   },
   "homepage": "https://github.com/MaYing929/flexible-practice#readme",
+  "dependencies": {
+  "browserify": "~2.35.2",
+  "uglifyjs": "~2.3.6"
+},
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.0",
     "gulp-sourcemaps": "^2.6.0",
     "postcss-partial-import": "^4.1.0",
+    "postcss-px2rem": "^0.3.0",
     "postcss-reporter": "^5.0.0",
-    "stylelint": "^8.0.0"
+    "stylelint": "^8.0.0",
+    "watchify": "~0.1.0",
+     "catw": "~0.0.1",
+     "tap": "~0.4.4"
   }
 }

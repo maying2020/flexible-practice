@@ -4,4 +4,4 @@
 flexible + gulp postCSS
 
 
-代码审查 watch功能 定制化构建工具
+代码审查  压缩  souceMap watch 定制化构建工具 
