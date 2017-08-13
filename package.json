@@ -18,8 +18,7 @@
   },
   "homepage": "https://github.com/MaYing929/flexible-practice#readme",
   "dependencies": {
-  "browserify": "~2.35.2",
-  "uglifyjs": "~2.3.6"
+  "browserify": "~2.35.2"
 },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
