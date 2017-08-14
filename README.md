@@ -50,6 +50,17 @@ cd flexible-practice
 
 flexible建议font-size不用rem
 
+基于设计稿设置html的font-size
+
+例如
+
+修改  var processors = [px2rem({remUnit: 75})];
+
+```
+ 基于 iphone 6  750像素    remUnit = 75
+ 基于 iphone 5 640像素    remUnit = 64
+
+```
 css需要这么写
 
   ```
