@@ -14,6 +14,7 @@ git clone https://github.com/MaYing929/flexible-practice.git
 cd flexible-practice
 
 根目录下 运行
+
         npm install (-d)
 
         npm run start
